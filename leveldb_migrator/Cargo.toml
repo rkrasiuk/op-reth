@@ -1,0 +1,15 @@
+[package]
+name = "leveldb_migration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eyre = "0.6.8"
+reth-primitives = { git = "https://github.com/paradigmxyz/reth", branch = "optimism" }
+rs-leveldb = "0.1.5"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+
+[[bin]]
+name = "leveldb-migrator"
+path = "src/leveldb_migrator.rs"
