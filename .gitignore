@@ -1,1 +1,4 @@
 /target
+
+# Ignore geth database tar dumps
+*.tar
