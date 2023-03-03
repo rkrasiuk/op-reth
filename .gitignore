@@ -2,3 +2,5 @@
 
 # Ignore geth database tar dumps
 *.tar
+
+data/*
