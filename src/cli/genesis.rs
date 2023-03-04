@@ -15,7 +15,7 @@ pub struct Command {
 }
 
 impl Command {
-    /// Execute `node` command
+    /// Execute the command
     pub async fn execute(self, _ctx: CliContext) -> eyre::Result<()> {
         tracing::info!(target: "op-reth::genesis", "loading genesis file {}", crate_version!());
 

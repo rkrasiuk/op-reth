@@ -3297,10 +3297,12 @@ dependencies = [
  "reth-primitives",
  "reth-provider",
  "reth-revm",
+ "reth-rlp",
  "reth-staged-sync",
  "reth-stages",
  "reth-tasks",
  "reth-tracing",
+ "rlp",
  "serde",
  "serde_json",
  "tempfile",
@@ -4834,6 +4836,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bb919243f34364b6bd2fc10ef797edbfa75f33c252e7998527479c6d6b47e1ec"
 dependencies = [
  "bytes",
+ "rlp-derive",
  "rustc-hex",
 ]
 
